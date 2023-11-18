@@ -48,3 +48,54 @@ ul.nav {
     text-decoration: none;
 }
 
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 72px;
+    padding: 16px 0px;
+}
+
+header h1 {
+    font-size: 3.6em;
+}
+
+header p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+header img {
+    max-width: 500px;
+}
+
+header figcaption {
+    text-align: center;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+header figcaption a {
+    color: #f9faf8;
+    font-size: inherit;
+}
+
+header button {
+    background-color: #1ea650;
+    color: #f9faf8;
+    padding: 4px 16px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: none;
+    margin-top: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
