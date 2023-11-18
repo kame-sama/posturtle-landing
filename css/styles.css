@@ -58,10 +58,10 @@ header .container {
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: 72px;
-    padding: 16px 0px;
+    padding: 72px 0px;
 }
 
-header h1 {
+h1 {
     font-size: 3.6em;
 }
 
@@ -98,4 +98,38 @@ header button {
 
 button:hover {
     cursor: pointer;
+}
+
+.about {
+    text-align: center;
+    color: #1f2937;
+    padding: 36px 0px;
+}
+
+.about > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.about > div > div {
+    flex: 0 0 150px;
+}
+
+.about .icon {
+    border: 10px solid #1ea650;
+    border-radius: 8px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 76px;
+    font-weight: 900;
+}
+
+.about .description {
+    margin-top: 8px;
+    font-size: 0.9em;
+    line-height: 1.5em;
 }
