@@ -30,6 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding: auto 8px;
 }
 
 .logo {
@@ -58,7 +59,7 @@ header .container {
     flex-direction: row-reverse;
     justify-content: space-between;
     gap: 72px;
-    padding: 72px 0px;
+    padding: 72px 8px;
 }
 
 h1 {
@@ -103,7 +104,7 @@ button:hover {
 .about {
     text-align: center;
     color: #1f2937;
-    padding: 36px 0px;
+    padding: 36px 8px;
 }
 
 .about > div {
@@ -126,10 +127,41 @@ button:hover {
     align-items: center;
     font-size: 76px;
     font-weight: 900;
+    color: #1ea650;
+    margin-top: 16px;
 }
 
 .about .description {
     margin-top: 8px;
     font-size: 0.9em;
     line-height: 1.5em;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 8px;
+}
+
+.quote figure {
+    max-width: 600px;
+}
+
+.quote blockquote {
+    font-size: 2.4em;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote figcaption {
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: 600;
 }
