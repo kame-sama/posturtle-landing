@@ -162,3 +162,47 @@ button:hover {
     font-size: 1.2em;
     font-weight: 600;
 }
+
+.action .container {
+    max-width: 800px;
+    background-color: #1ea650;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    gap: 72px;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color:#f9faf8;
+    padding: 48px 36px;
+    margin: 72px auto;
+}
+
+.action h2 {
+    font-size: 1.8em;
+}
+
+.action button {
+    color: #f9faf8;
+    background-color: #1ea650;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    font-weight: 700;
+    padding: 8px 16px;
+    align-self: center;
+}
+
+.action button:hover {
+    background-color: #f9faf8;
+    color: #1ea650;
+}
+
+footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 36px 8px;
+}
+
+footer a {
+    color : #f9faf8;
+}
